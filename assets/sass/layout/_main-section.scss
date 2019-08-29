@@ -1,0 +1,85 @@
+.sectionInfo{
+  background-color: $granite-gray;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  &__container{
+    width: 100%;
+    height: auto;
+    max-width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  &__img{
+    padding-top: 3rem;
+  }
+  &__title{
+    color: $white;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  &__paragraph{
+    color: $white;
+    padding: 2rem 0;
+    text-align:left;
+  }
+}
+
+.sectionInfo--backgroundSnow{
+  background-color: $snow;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.sectionInfo__title--colorGray{
+  color: $granite-gray;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.sectionInfo__paragraph--colorGray{
+  color: $granite-gray;
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.titleWide{
+  width: 100%;
+  text-align: center;
+  padding: 5rem;
+  background-color: $jelly-bean;
+}
+
+.sectionAbout{
+  background-color: $snow;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  &__container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    background-color: $snow;
+  }
+  &__img{
+    padding-top: 4rem;
+    width: 70%;
+  }
+  &__title{
+    color: $granite-gray;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  &__paragraph{
+    color: $granite-gray;
+    text-align: left;
+    padding-top: 1rem;
+  }
+}

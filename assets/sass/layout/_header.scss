@@ -1,0 +1,27 @@
+.header{
+  width: 100%;
+  height: 968px;
+  background-color: $jelly-bean;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  text-align: center;
+  display: table;
+  &__container{
+    display: table-cell;
+    vertical-align: middle;
+    &--titlexxl{
+      font-family: $text-font-raleway;
+      color: $white;
+      font-weight: $extra-light;
+      font-size: $xx-large;
+    }
+    &--titlexl{
+      font-family: $text-font-raleway;
+      color: $white;
+      font-weight: $bold;
+      font-size: $xx-large;
+      text-transform:uppercase;
+    }
+  }
+}

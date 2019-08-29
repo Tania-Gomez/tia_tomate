@@ -1,0 +1,42 @@
+body{
+  width: 100%;
+  height: 100%;
+  font-family: $text-font-raleway;
+  color: $granite-gray;
+  background: $snow;
+}
+
+h1{
+  font-family: $text-font-raleway;
+  color: $white;
+  font-weight: $extra-light;
+  font-size: $xx-large;
+}
+
+h2{
+  font-family: $text-font-raleway;
+  color: $white;
+  font-weight: $bold;
+  font-size: $xx-large;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: $text-font-raleway;
+  color: $granite-gray;
+  font-weight: $bold;
+  font-size: $large;
+}
+
+h4{
+  font-family: $text-font-raleway;
+  color: $white;
+  font-weight: $bold;
+  font-size: $large;
+}
+
+p{
+  font-family: $text-font-raleway;
+  font-weight: $normal;
+  font-size: $normal;
+}
